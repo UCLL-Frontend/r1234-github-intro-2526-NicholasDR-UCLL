@@ -5,4 +5,5 @@ let kwadraat = x*x;
 console.log(kwadraat);
 
 const tekst = 'hallo';
-tekst = 'anders';
+
+const waar = true;
