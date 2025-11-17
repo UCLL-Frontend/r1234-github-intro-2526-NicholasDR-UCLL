@@ -45,3 +45,9 @@ console.log(`Woorden samenvoegen: ${Sum("alfa", "beta")}`);
 
 const Sum2 = (a, b) => {return a + b;}
 const Sum3 = (a, b) => a + b;
+
+let sum = 0;
+for(let i = 100; i <= 120; i+=5){
+  sum += i;
+  console.log(i);
+}
