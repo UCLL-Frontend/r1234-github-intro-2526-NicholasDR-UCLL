@@ -29,3 +29,19 @@ console.log(result)
 let a = 3, b = 4;
 console.log(a === 3 || b === 0);
 console.log(a < 10 && b > 0);
+
+let word1 = "help";
+let word2 = "me";
+let word = word1 + " " + word2;
+let wordDifferent = `${word1} ${word2}`;
+console.log(wordDifferent);
+
+function Sum(a,b){
+  return a + b;
+}
+
+console.log(`De som van 4 en 5 is ${Sum(a, b)}`);
+console.log(`Woorden samenvoegen: ${Sum("alfa", "beta")}`);
+
+const Sum2 = (a, b) => {return a + b;}
+const Sum3 = (a, b) => a + b;
