@@ -15,14 +15,14 @@ console.log(x > y);
 console.log("---")
 let tien = "10";
 console.log(x == tien);
-console.log(x === tien);//!!!
+console.log(x === tien);//vergelijkt dat variabelen dezelfde soort zijn
 
 console.log("---");
 console.log("appel" < "Appel");
 
 if(x%2 === 0) console.log("even")
 else console.log("oneven");
-
+//kan ook als:
 let result = x%2 === 0 ? "even" : "oneven";
 console.log(result)
 
