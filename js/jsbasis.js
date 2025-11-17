@@ -51,3 +51,10 @@ for(let i = 100; i <= 120; i+=5){
   sum += i;
   console.log(i);
 }
+
+let sumWhile = 0;
+let iWhile = 0;
+while(iWhile < 120){
+  sumWhile += iWhile;
+  iWhile += 5;
+}
